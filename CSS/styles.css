@@ -122,3 +122,185 @@ body {
 .nav-2-button:hover {
     color: aqua;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer area */
+footer {
+    background-color: #232121;
+    padding: 70px 40px 0 0;
+    margin-top: 5%;
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.container {
+    margin: auto;
+
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0;
+}
+
+.footer-first {
+    padding-left: 11%;
+    margin-right: 15%;
+}
+
+
+li a {
+    text-decoration: none;
+    line-height: 2.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.footer-col h3 {
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+
+li {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+#contact-h3 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.footer-text-hr {
+
+    width: 15%;
+    position: relative;
+    right: 42%;
+    border-top: 3.5px solid #38dbcd;
+    border-bottom: 0px none;
+}
+
+
+#input {
+    height: 30px;
+    width: 100%;
+    padding: 2px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#phone {
+    line-height: 3;
+}
+
+#email {
+    line-height: 2;
+}
+
+.input-container {
+    padding-top: 20px;
+    display: flex;
+}
+
+.icon {
+    text-align: center;
+    padding: 10px;
+    margin-left: 0;
+    width: 27px;
+    height: 18px;
+    background: #38dbcd;
+    color: aliceblue;
+}
+
+.bottom-footer {
+    padding: 0.5% 0 0.5% 0.8%;
+    background-color: #000000;
+}
+
+.bottom-footer p {
+    display: inline-block;
+    padding: 0 50% 0 10%;
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.bottom-text {
+    font-weight: bolder;
+}
+
+.fa-copyright {
+    display: inline-block;
+    font-size: small;
+}
