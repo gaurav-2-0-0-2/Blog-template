@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+.nav-1 {
+
+    background-color: #38dbcd;
+    padding: 0.3% 0 0.3% 10.1%;
+}
+
+.fa-envelope{
+    position: relative;
+    right:6%;
+    margin-left: 45%;
+}
+
+.nav-1-email {
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    right: 6%;
+}
+
+.fa-phone{
+    position: relative;
+    right:6%;
+}
+
+.nav-1-phone {
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    right: 6%;
+}
+
+.nav-2 {
+    text-align: center;
+    padding: 3% 6% 3% 5%;
+
+}
+
+.nav_2{
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+}
+
+.fa-icon {
+    display: inline-block;
+    font-size: small;
+    padding: 0 5px 0 10px;
+    color: aliceblue;
+}
+
+.fa-icon:hover {
+    color: aqua;
+}
+
+.nav-1-text {
+    display: inline-block;
+    font-size: smaller;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    width: 7%;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 9%;
+    left: 8%;
+}
+
+#grant {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 16%;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+#foundation {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    font-family: 'DM Sans', sans-serif;
+    color: #38dbcd;
+
+}
+
+.nav-2-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(122, 117, 117);
+    padding-left: 50px;
+
+}
+.nav-2-button {
+
+    position: relative;
+    background-color: #38dbcd;
+    color: aliceblue;
+    border: 0;
+    left: 40.5%;
+    font-size: 1rem;
+    padding: 0.7% 1% 0.7% 1%;
+}
+
+.nav-2-button:hover {
+    color: aqua;
+}
