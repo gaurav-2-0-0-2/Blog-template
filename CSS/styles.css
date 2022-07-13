@@ -122,7 +122,10 @@ body {
 .nav-2-button:hover {
     color: aqua;
 }
+.block-2-img {
+    filter: opacity(0.6) drop-shadow(0 0 0 #000000);
 
+}
 
 
 
