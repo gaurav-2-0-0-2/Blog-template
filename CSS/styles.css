@@ -146,7 +146,10 @@ body {
 }
 
 .card-album {
-    padding: 5% 15%;
+
+    margin:auto;
+    padding:5.5% 0 0 10%;    
+  
 }
 
 .card {
@@ -154,6 +157,8 @@ body {
     position: relative;
     transition: 0.3s;
     border: 1px solid #edecec;
+    margin:0 25px 25px 0;
+   
     
 
 }
@@ -169,21 +174,21 @@ body {
 
 .container-1_1 {
     position: relative;
-    padding: 2px 16px 20px 16px;
+    padding: 15px 25px 20px 25px;
 }
 
 .container-1_1 p {
     text-align: left;
-    font-size: 15px;
-    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
     line-height: 0.3;
     letter-spacing: 0.1%;
 }
 
 .container-1_1 h4 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: larger;
+    font-size: 20px;
     transition: 0.3s;
 }
 .container-1_1 h4:hover{
@@ -192,6 +197,17 @@ body {
 .user-icon {
     color: #a7a6a6;
     transition: 0.3s;
+    padding-right: 5px;
+}
+.user-icon-h6{
+    display: inline-block;
+    color: #a7a6a6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    bottom:68%;
+    font-size: 14px;
+
 }
 .user-icon:hover{
     color: #17b6cb;
@@ -199,7 +215,7 @@ body {
 .heart-icon {
     position: absolute;
     color: #a7a6a6;
-    right: 23%;
+    right: 25%;
     padding-right: 10px;
     transition: 0.3s;
 }
@@ -209,7 +225,7 @@ body {
 .comment-icon {
     position: absolute;
     color: #a7a6a6;
-    right: 8%;
+    right: 10%;
     padding-right: 10px;
     transition: 0.3s;
 }
@@ -221,11 +237,11 @@ body {
     color: #a7a6a6;
     display: inline-block;
     position: absolute;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    right: 20%;
-    bottom: 72%;
+    right: 22%;
+    bottom: 67%;
 
 }
 
@@ -243,11 +259,11 @@ body {
     color: #a7a6a6;
     display: inline-block;
     position: absolute;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    right: 4%;
-    bottom: 72%;
+    right: 6%;
+    bottom: 67%;
 
 }
 
@@ -263,7 +279,7 @@ body {
     text-align: center;
     position: relative;
     bottom: 5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     font-size: 15px;
 
@@ -271,7 +287,7 @@ body {
 
 .read-more {
     position: relative;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: smaller;
     color: grey;
     left: 78%;
