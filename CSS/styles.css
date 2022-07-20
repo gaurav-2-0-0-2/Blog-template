@@ -150,7 +150,7 @@ body {
 .card-album {
 
     margin:auto;
-    padding:5.5% 0 0 10%;    
+    padding:5.5% 0 0 11%;    
   
 }
 
@@ -375,9 +375,10 @@ transition: 0.3s;
 
 
 /* footer area */
+
 footer {
     background-color: #232121;
-    padding: 70px 40px 0 0;
+    padding: 70px 50px 0 0;
     margin-top: 5%;
 
 }
@@ -400,8 +401,8 @@ ul {
 }
 
 .footer-col {
-    width: 20%;
-    padding: 0;
+    width: 210px;
+    padding: 0 25px 0 20px ;
 }
 
 .footer-first {
@@ -428,7 +429,7 @@ li a {
 
 li {
     color: aliceblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -483,7 +484,7 @@ li {
 }
 
 .bottom-footer {
-    padding: 0.5% 0 0.5% 0.8%;
+    padding: 0.5% 8.5% 0.5% 0.8%;
     background-color: #000000;
 }
 
