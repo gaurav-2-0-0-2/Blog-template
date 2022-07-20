@@ -31,7 +31,7 @@ for(let i=1; i<=9; i++){
     card-album.append(container);
 }
 
-fetch("")
+fetch("https://github.com/gaurav-2-0-0-2/Blog-template/blob/main/cards.json")
     .then((response) => {
         return response.json()
     })
