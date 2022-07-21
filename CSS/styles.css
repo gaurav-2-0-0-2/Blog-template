@@ -153,7 +153,11 @@ body {
     
 margin-left: 11.5%;
 margin-top: 5%;
-
+display: grid;
+margin: 100px auto;
+width: 89%;
+grid-template-columns: repeat(3, auto);
+gap: 25px 20px;
   
 }
 
@@ -188,6 +192,7 @@ margin-top: 5%;
     font-family: 'Open Sans', sans-serif;
     line-height: 0.3;
     letter-spacing: 0.1%;
+    line-height: 1.5;
 }
 
 .container-1_1 h4 {
@@ -210,7 +215,7 @@ margin-top: 5%;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     position: absolute;
-    bottom:68%;
+    bottom:71%;
     font-size: 14px;
 
 }
