@@ -157,7 +157,7 @@ display: grid;
 margin: 100px auto;
 width: 89%;
 grid-template-columns: repeat(3, auto);
-gap: 25px 20px;
+gap: 20px 15px;
   
 }
 
@@ -251,7 +251,7 @@ gap: 25px 20px;
     font-size: 15px;
     font-weight: lighter;
     right: 22%;
-    bottom: 67%;
+    bottom: 71%;
 
 }
 
@@ -264,7 +264,7 @@ gap: 25px 20px;
     font-size: 15px;
     font-weight: lighter;
     right: 6%;
-    bottom: 67%;
+    bottom: 71%;
 
 }
 
@@ -279,7 +279,7 @@ gap: 25px 20px;
 .date-tag h6 {
     text-align: center;
     position: relative;
-    bottom: 5%;
+    bottom: 8%;
     font-family: 'Open Sans', sans-serif;
     color: whitesmoke;
     font-size: 15px;
