@@ -147,234 +147,17 @@ body {
     color: aliceblue;
 }
 
-.card-album {
 
-    display: grid;
-    margin: 100px auto;
-    width: 89%;
-    grid-template-columns: repeat(3, auto);
-    gap: 25px 20px;   
+/* CARD ALBUM */
+.cards {
+    
+margin-left: 11.5%;
+margin-top: 5%;
+
   
 }
 
-
-.container {
-    border: 1px solid #eed1d1;
-    width: 97%;
-    font-family: 'Roboto', sans-serif;
-}
-.container:hover {
-    box-shadow: 1px 1px 15px #bbafaf;
-    transition: all 0.3s;
-}
-
-.img {
-    position: relative;
-
-}
-
-.img img {
-    width: 100%;
-}
-
-.date {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #0aaac0;
-    color: white;
-    line-height: 70px;
-    width: 75px;
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.date:hover {
-    cursor: pointer;
-}
-
-.blog-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 15px 0px 15px;
-    font-size: 14px;
-    color: #888;
-}
-
-.blog-info .fa-solid:hover {
-    color: rgb(10, 170, 160);
-    cursor: pointer;
-}
-
-
-.blog-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 11px;
-    padding: 15px;
-
-}
-
-.blog-text h3 {
-    color: #1b1b1b;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-}
-
-.blog-text h3:hover {
-    color: rgb(10, 170, 160);
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.blog-text p {
-    text-align: justify;
-    color: #333;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 17px;
-}
-
-.blog-text a {
-    text-align: right;
-    color: black;
-    font-size: 14px;
-
-}
-
-.blog-text a:hover {
-    color: #0aaac0;
-    transition: all 0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .card {
+.card {
     display: inline-block;
     position: relative;
     transition: 0.3s;
@@ -467,7 +250,7 @@ body {
 
 }
 
-/*
+
 .comment-icon-h6 {
     color: #a7a6a6;
     display: inline-block;
@@ -509,7 +292,107 @@ transition: 0.3s;
 .read-more:hover{
     color: #17b6cb;
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -613,7 +496,7 @@ footer {
 
 }
 
-.container {
+.footer-container {
     margin: auto;
 
     margin: 0;
