@@ -1,6 +1,7 @@
-{
-    "posts": [
+
+     [
       {
+        "id":1,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -10,6 +11,7 @@
         "like_count":15
       },
       {
+        "id":2,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -19,6 +21,7 @@
         "like_count":15
       },
       {
+        "id":3,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -28,6 +31,7 @@
         "like_count":15
       },
       {
+        "id":4,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -37,6 +41,7 @@
         "like_count":15
       },
       {
+        "id":5,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -46,6 +51,7 @@
         "like_count":15
       },
       {
+        "id":6,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -55,6 +61,7 @@
         "like_count":15
       },
       {
+        "id":7,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -64,6 +71,7 @@
         "like_count":15
       },
       {
+        "id":8,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -73,6 +81,7 @@
         "like_count":15
       },
       {
+        "id":9,
         "title": "Fire Fire with Fire",
         "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
         "img": "images/one.jpg",
@@ -82,4 +91,4 @@
         "like_count":15
       }
     ]
-  }
+  

@@ -43,20 +43,100 @@
         
 //     }
     
+
+
+
+
+
+
+
+
+
+
+
+for(let i=1; i<=9; i++){
+    let cards = document.querySelector(".cards");
+
+    let card = document.createElement('div')
+    card.classList.add('card', `card${i}`)
+    container.innerHTML = 
+
+    `
     
     
-
-
-
-
-fetch('https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json')
-    .then(result => result.json())
-    .then((output) => {
-        console.log('Output: ', output);
+                    <img class="card-img" src="" alt="Avatar">
+                    <div class="date-tag">
+                        <h6></h6>
+                    </div>
+                    <div class="container-1_1">
+                       
+                        <a href="#"><i class="fa-solid fa-user user-icon"></i></a>
+                        <h6 class="user-icon-h6"></h6>
+                        <a href="#"><i class="fa-solid fa-heart heart-icon"></i></a>
+                        
         
-}).catch(err => console.error(err));
+                        <a href="#"><i class="fa-solid fa-comment comment-icon"></i></a>
+                        <h6 class="comment-icon-h6"></h6>
+                        <h6 class="heart-icon-h6"></h6>
+        
+                        <h4></h4>
+                        <p></p>
+        
+                        <a href="#" class="read-more">Read More...</a>
+                    </div>
+               
+    `
+
+    cards.append(card);
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fetch('https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json')
+//     .then(result => result.json())
+//     .then((output) => {
+//         for (let i = 1; i <= 9; i++) {
+//             document.querySelector(`.card${i} .container-1_1 p`).textContent = output[i-1].desc
+//             document.querySelector(`.card${i} .container-1_1 h4`).textContent = output[i-1].title
+//             document.querySelector(`.card${i} .user-icon-h6`).textContent = output[i-1].admin
+//             document.querySelector(`.card${i} .heart-icon-h6`).textContent = output[i-1].like_count
+//             document.querySelector(`.card${i} .comment-icon-h6`).textContent = output[i-1].comment_count
+//             document.querySelector(`.card${i} .images/one.jpg img`).src = output[i-1].img
+//             document.querySelector(`.container${i} .date-tag`).textContent = output[i-1].datetime
+//         }
+//     }).catch(err => console.error(err));
+
+fetch("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json")
+    .then((response) => {
+        return response.json()
+    })
+    .then((data) => {
+        for (let i = 1; i <= 9; i++) {
+            document.querySelector(`.card${i} .container-1_1 p`).textContent = output[i-1].desc
+            document.querySelector(`.card${i} .container-1_1 h4`).textContent = output[i-1].title
+            document.querySelector(`.card${i} .user-icon-h6`).textContent = output[i-1].admin
+            document.querySelector(`.card${i} .heart-icon-h6`).textContent = output[i-1].like_count
+            document.querySelector(`.card${i} .comment-icon-h6`).textContent = output[i-1].comment_count
+            document.querySelector(`.card${i} .images/one.jpg img`).src = output[i-1].img
+            document.querySelector(`.container${i} .date-tag`).textContent = output[i-1].datetime
+        }
+    }).catch(err => console.error(err));
 
 
 
@@ -178,7 +258,7 @@ fetch('https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards
 //     let cards = document.querySelector(".cards");
 
 //     let container = document.createElement('div')
-//     container.classList.add('container', `container${i}`)
+//     container.classList.add('card', `card${i}`)
 //     container.innerHTML = 
 //     `
 //     <div class="img">
