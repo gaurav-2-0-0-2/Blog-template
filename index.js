@@ -59,7 +59,7 @@ for(let i=1; i<=9; i++){
 
     let card = document.createElement('div')
     card.classList.add('card', `card${i}`)
-    container.innerHTML = 
+    card.innerHTML = 
 
     `
     
@@ -128,13 +128,13 @@ fetch("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards
     })
     .then((data) => {
         for (let i = 1; i <= 9; i++) {
-            document.querySelector(`.card${i} .container-1_1 p`).textContent = output[i-1].desc
-            document.querySelector(`.card${i} .container-1_1 h4`).textContent = output[i-1].title
-            document.querySelector(`.card${i} .user-icon-h6`).textContent = output[i-1].admin
-            document.querySelector(`.card${i} .heart-icon-h6`).textContent = output[i-1].like_count
-            document.querySelector(`.card${i} .comment-icon-h6`).textContent = output[i-1].comment_count
-            document.querySelector(`.card${i} .images/one.jpg img`).src = output[i-1].img
-            document.querySelector(`.container${i} .date-tag`).textContent = output[i-1].datetime
+            document.querySelector(`.card${i} .container-1_1 p`).textContent = data[i-1].desc
+            document.querySelector(`.card${i} .container-1_1 h4`).textContent = data[i-1].title
+            document.querySelector(`.card${i} .user-icon-h6`).textContent = data[i-1].admin
+            document.querySelector(`.card${i} .heart-icon-h6`).textContent = data[i-1].like_count
+            document.querySelector(`.card${i} .comment-icon-h6`).textContent = data[i-1].comment_count
+            document.querySelector(`.card${i} .card-img`).src = data[i-1].img
+            document.querySelector(`.card${i} .date-tag`).textContent = data[i-1].datetime
         }
     }).catch(err => console.error(err));
 
