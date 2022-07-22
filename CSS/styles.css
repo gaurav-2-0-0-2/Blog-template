@@ -177,7 +177,7 @@ gap: 20px 15px; */
 }
 
 .card-img {
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -218,7 +218,8 @@ gap: 20px 15px; */
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     position: absolute;
-    bottom:71%;
+    bottom:55%;
+    left: 10%;
     font-size: 14px;
 
 }
@@ -290,12 +291,12 @@ gap: 20px 15px; */
 }
 
 .read-more {
-    position: relative;
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-size: smaller;
     color: grey;
-    left: 78%;
-transition: 0.3s;
+    right: 5%;
+    transition: 0.3s;
 }
 .read-more:hover{
     color: #17b6cb;

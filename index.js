@@ -17,19 +17,25 @@
     
 // })
 
+
 for (let i = 1; i <= 9; i++) {
+    
 
     $.getJSON("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json",function (data) {
        
-     
-       $('.container-1_1 h4').html(data[i-1].title)
-       $('.container-1_1 p').html(data[i-1].desc)
-       $('.card-img').attr("src",data[i-1].img)
-       $('.date-tag').text(data[i-1].datetime)
-       $('.user-icon-h6').text(data[i-1].admin)
-       $('.comment-icon-h6').html(data[i-1].comment_count)
-       $('.heart-icon-h6').html(data[i-1].like_count)
-});}
+        
+            $('.container-1_1 h4').html(data[i-1].title)
+            $('.container-1_1 p').html(data[i-1].desc)
+            $('.card-img').attr("src",data[i-1].img)
+            $('.date-tag').text(data[i-1].datetime)
+            $('.user-icon-h6').text(data[i-1].admin)
+            $('.comment-icon-h6').html(data[i-1].comment_count)
+            $('.heart-icon-h6').html(data[i-1].like_count)
+                    
+        
+       
+});
+}
     
 
 
@@ -285,59 +291,6 @@ for (let i = 1; i <= 9; i++) {
 
 
 
-
-
-
-// for(let i=1; i<=9; i++){
-//     let cards = document.querySelector(".cards");
-
-//     let container = document.createElement('div')
-//     container.classList.add('card', `card${i}`)
-//     container.innerHTML = 
-//     `
-//     <div class="img">
-//         <img>
-//         <div class="date"></div>
-//     </div>
-//     <div class="blog-info">
-//         <div class="admin">
-//             <i class="fa-solid fa-user"></i>
-//             By: <span></span>
-//         </div>
-//         <div class="comment">
-//             <i class="fa-solid fa-heart"></i>
-//             <span> </span>  &nbsp; | &nbsp;
-//             <i class="fa-solid fa-comment"></i>
-//             <span> </span>
-//         </div>
-//     </div>
-//     <div class="blog-text">
-//         <h3></h3>
-//         <p></p>
-//         <a href="">Read More...</a>
-//     </div>
-//     `
-
-//     cards.append(container);
-// }
-
-// fetch("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json")
-//     .then((response) => {
-//         return response.json()
-//     })
-//     .then((data) => {
-        // for (let i = 1; i <= 9; i++) {
-        //     document.querySelector(`.container${i} .blog-text p`).textContent = data[i-1].desc
-        //     document.querySelector(`.container${i} .blog-text h3`).textContent = data[i-1].title
-        //     document.querySelector(`.container${i} .admin span`).textContent = data[i-1].author
-        //     document.querySelector(`.container${i} .comment span:nth-child(2)`).textContent = data[i-1].like_count
-        //     document.querySelector(`.container${i} .comment span:nth-child(4)`).textContent = data[i-1].comment_count
-        //     document.querySelector(`.container${i} .img img`).src = data[i-1].img
-        //     // document.querySelector(`.container${i} .img img`).setAttribute("src", data[i-1].img)
-
-        //     document.querySelector(`.container${i} .date`).textContent = data[i-1].date
-//         }
-//     })
 
 
 
