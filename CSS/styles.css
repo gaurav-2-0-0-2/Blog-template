@@ -153,11 +153,11 @@ body {
     
 margin-left: 11.5%;
 margin-top: 5%;
-display: grid;
+/* display: grid;
 margin: 100px auto;
 width: 89%;
 grid-template-columns: repeat(3, auto);
-gap: 20px 15px;
+gap: 20px 15px; */
   
 }
 
@@ -177,7 +177,7 @@ gap: 20px 15px;
 }
 
 .card-img {
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -187,15 +187,17 @@ gap: 20px 15px;
 }
 
 .container-1_1 p {
+    display: inline-block;
     text-align: left;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     line-height: 0.3;
     letter-spacing: 0.1%;
-    line-height: 1.5;
+    
 }
 
 .container-1_1 h4 {
+    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 20px;
@@ -205,6 +207,7 @@ gap: 20px 15px;
     color: #019e91;
 }
 .user-icon {
+    position: absolute;
     color: #a7a6a6;
     transition: 0.3s;
     padding-right: 5px;

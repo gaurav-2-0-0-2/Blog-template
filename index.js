@@ -1,49 +1,38 @@
-$(function () {
-    for (let i = 1; i <= 9; i++) {
-        var $cards = $(".cards")
+// $(function () {
+//     for (let i = 1; i <= 9; i++) {
+//         var $cards = $(".cards")
         
-        $.ajax({
-            type: 'GET',
-            url: 'https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json',
-            success: function (data) {
-                $.each($cards, function (i, card) {
-                    $cards.append(`<div class="card">
+//         $.ajax({
+//             type: 'GET',
+//             url: 'https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json',
+//             success: function (data) {
+//                 $.each($cards, function (i, card) {
+//                     $cards.append()
+        
+//                })
+//             }
+//         })
+        
+//     }
     
-                    <img class="card-img" src="images/one.jpg" alt="Avatar">
-                    <div class="date-tag">
-                        <h6>24 MAY</h6>
-                    </div>
-                    <div class="container-1_1">
-                    
-                        <a href="#"><i class="fa-solid fa-user user-icon"></i></a>
-                        <h6 class="user-icon-h6">By: Admin</h6>
-                        <a href="#"><i class="fa-solid fa-heart heart-icon"></i></a>
-                        <h6 class="heart-icon-h6">15</h6>
-        
-                        <a href="#"><i class="fa-solid fa-comment comment-icon"></i></a>
-                        <h6 class="comment-icon-h6">25</h6>
-                        <h6 class="heart-icon-h6">15</h6>
-        
-                        <h4>Lorem ipsum dolor sit amet</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipicing </p>
-                        <p>elit. Nullam feugiat dignissim metus, id vestibulum</p>
-                        <p>tellus Cras ante commodo.</p>
-        
-                        <a href="#" class="read-more">Read More...</a>
-                    </div>
-                </div>`
-                
-                    
-            
-                )
-        
-               })
-            }
-        })
-        
-    }
+// })
+
+for (let i = 1; i <= 9; i++) {
+
+    $.getJSON("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json",function (data) {
+       
+     
+       $('.container-1_1 h4').html(data[i-1].title)
+       $('.container-1_1 p').html(data[i-1].desc)
+       $('.card-img').attr("src",data[i-1].img)
+       $('.date-tag').text(data[i-1].datetime)
+       $('.user-icon-h6').text(data[i-1].admin)
+       $('.comment-icon-h6').html(data[i-1].comment_count)
+       $('.heart-icon-h6').html(data[i-1].like_count)
+});}
     
-})
+
+
 
 
 

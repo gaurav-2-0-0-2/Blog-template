@@ -3,7 +3,7 @@
       {
         "id":1,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci.",
         "img": "images/one.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -13,7 +13,7 @@
       {
         "id":2,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci.",
         "img": "images/two.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -23,7 +23,7 @@
       {
         "id":3,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci.",
         "img": "images/three.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -33,7 +33,7 @@
       {
         "id":4,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci. ",
         "img": "images/four.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -43,7 +43,7 @@
       {
         "id":5,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci.",
         "img": "images/five.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -53,7 +53,7 @@
       {
         "id":6,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci.",
         "img": "images/six.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -63,7 +63,7 @@
       {
         "id":7,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci. ",
         "img": "images/seven.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -73,7 +73,7 @@
       {
         "id":8,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci. ",
         "img": "images/eight.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
@@ -83,7 +83,7 @@
       {
         "id":9,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. Ut rhoncus tortor lacus, sit amet mattis mauris sollicitudin at. Aliquam tincidunt eleifend metus, ac dignissim.",
+        "desc": "Donec id consequat orci. .",
         "img": "images/nine.jpg",
         "datetime": "24 MAY",
         "admin": "Balajiganapathi Venkateshvaran",
