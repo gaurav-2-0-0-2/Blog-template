@@ -23,14 +23,17 @@ for (let i = 1; i <= 9; i++) {
 
     $.getJSON("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/cards.json",function (data) {
        
-        
+        $.each(data, function (i,items) {
             $('.container-1_1 h4').html(data[i-1].title)
             $('.container-1_1 p').html(data[i-1].desc)
             $('.card-img').attr("src",data[i-1].img)
-            $('.date-tag').text(data[i-1].datetime)
+            $('.date-tag h6').text(data[i-1].datetime)
             $('.user-icon-h6').text(data[i-1].admin)
             $('.comment-icon-h6').html(data[i-1].comment_count)
             $('.heart-icon-h6').html(data[i-1].like_count)
+                    
+        })
+            
                     
         
        
