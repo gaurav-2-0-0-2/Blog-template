@@ -151,12 +151,13 @@ body {
 /* CARD ALBUM */
 .cards {
     
-margin-left: 11.5%;
+margin-left: 9.7%;
 margin-top: 5%;
   
 }
 
 .card {
+    width: 28%;
     display: inline-block;
     position: relative;
     transition: 0.3s;
@@ -187,7 +188,7 @@ margin-top: 5%;
     text-align: left;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    line-height: 0.3;
+    line-height: 1.5;
     letter-spacing: 0.1%;
     
 }
@@ -214,7 +215,7 @@ margin-top: 5%;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     position: absolute;
-    bottom:55%;
+    bottom:70%;
     left: 13%;
     font-size: 14px;
 
@@ -251,7 +252,7 @@ margin-top: 5%;
     font-size: 15px;
     font-weight: lighter;
     right: 22%;
-    bottom: 55%;
+    bottom: 68%;
 
 }
 
@@ -264,7 +265,7 @@ margin-top: 5%;
     font-size: 15px;
     font-weight: lighter;
     right: 6%;
-    bottom: 55%;
+    bottom: 68%;
 
 }
 
