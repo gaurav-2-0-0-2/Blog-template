@@ -2,16 +2,17 @@
       {
         "id":1,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/one.jpg",
-        "datetime": "24 MAYBy: Admin",
+        "datetime": "24 MAY",
+        "admin":"By: Admin",
         "comment_count": 25,
         "like_count":15
       },
       {
         "id":2,
         "title": "Lorem ipsum dolor set amet",
-        "desc": "Donec id consequat orci.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/two.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -21,7 +22,7 @@
       {
         "id":3,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/three.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -31,7 +32,7 @@
       {
         "id":4,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. ",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/four.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -41,7 +42,7 @@
       {
         "id":5,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/five.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -51,7 +52,7 @@
       {
         "id":6,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/six.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -61,7 +62,7 @@
       {
         "id":7,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. ",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/seven.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -71,7 +72,7 @@
       {
         "id":8,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. ",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie. ",
         "img": "images/eight.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",
@@ -81,7 +82,7 @@
       {
         "id":9,
         "title": "Fire Fire with Fire",
-        "desc": "Donec id consequat orci. .",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus suscipit leo sit amet molestie.",
         "img": "images/nine.jpg",
         "datetime": "24 MAY",
         "admin": "By: Admin",

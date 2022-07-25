@@ -153,11 +153,6 @@ body {
     
 margin-left: 11.5%;
 margin-top: 5%;
-display: grid;
-margin: 100px auto;
-width: 89%;
-grid-template-columns: repeat(3, auto);
-gap: 20px 15px;
   
 }
 
