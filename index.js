@@ -13,10 +13,11 @@ $.getJSON("https://raw.githubusercontent.com/gaurav-2-0-0-2/Blog-template/main/c
                  '<a href="#"><i class="fa-solid fa-user user-icon"></i></a>'+
                  '<h6 class="user-icon-h6">'+data[i].admin+'</h6>'+
                  '<a href="#"><i class="fa-solid fa-heart heart-icon"></i></a>'+
-       
+                 '<h6 class="heart-icon-h6">'+data[i].like_count+'</h6>'+
+                 
                  '<a href="#"><i class="fa-solid fa-comment comment-icon"></i></a>'+
                  '<h6 class="comment-icon-h6">'+data[i].comment_count+'</h6>'+
-                 '<h6 class="heart-icon-h6">'+data[i].like_count+'</h6>'+
+                 
        
                  '<h4>'+data[i].title+'</h4>'+
                  '<br>'+
